@@ -23,5 +23,5 @@
 }
 h2 {
   text-decoration: underline;
-  border-style: solid;
+  border-style: solid, gray, 1px;
 }
