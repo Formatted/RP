@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hack Reactor Student User Group Page</title>
+	
+	<style>
+		body {
+			background: #000 url("data:image/jpeg;base64,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");
+		}
+		h1 {
+			color: red;
+			border: 2px solid red;
+		}
+		p {
+			font-family: Courier;
+			background-color: yellow;
+		}
+		#head {
+			font-size: 2em;
+		}
+		#aboutus {
+			font-size: 0.5em;
+		}
+		div p {
+			background-color: orange; 
+		}
+	</style>
+
+</head>
+<body>
+	<div>
+		<a href="#head">About Us</a>
+		<a href="#aboutus">About Us</a>
+	</div>
+
+
+	<h1 id="head">Hack Reactor Student User Group</h1>
+	<hr>
+	<div>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/EGivT0o85P4" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h2>Portland</h2>
+	<p><em>Portland kitsch you probably haven't heard of them chartreuse organic hammock.</em> Umami whatever trust fund mustache. Bushwick post-ironic kinfolk fanny pack tilde pour-over. Quinoa letterpress migas, fashion axe keytar pour-over knausgaard franzen pug kinfolk cray asymmetrical hammock readymade taxidermy. Narwhal celiac wayfarers, pabst squid 8-bit gochujang intelligentsia distillery before they sold out. Authentic street art you probably haven't heard of them 8-bit, YOLO chillwave squid brooklyn irony bushwick next level. Pop-up butcher dreamcatcher, literally affogato hoodie beard sustainable messenger bag YOLO.</p>
+	<h3>Pop-up Swag</h3>
+	<div> 
+		<p><b>Pop-up swag kitsch, butcher 8-bit single-origin coffee thundercats fap yuccie tattooed fashion axe street art seitan flexitarian.</b> Cardigan shoreditch tattooed, semiotics meditation stumptown vegan mumblecore next level. Trust fund typewriter blog kitsch vinyl freegan, sartorial wolf fanny pack you probably haven't heard of them mlkshk. 
+			<br>Small batch tote bag scenester man braid messenger bag chia, typewriter kickstarter. Franzen meh yuccie cold-pressed, shabby chic pop-up mixtape dreamcatcher 3 wolf moon keytar 8-bit pork belly seitan. Fashion axe iPhone pickled try-hard hoodie. Drinking vinegar mixtape seitan, godard austin vegan tattooed single-origin coffee migas hammock chillwave 90's.</p>
+		</div>
+		<hr>
+		<img src="http://res.cloudinary.com/alb/image/upload/v1459041057/20150725_2133_dswphx.jpg" height="100" >
+		<hr>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.03856993371!2d-122.59728824798334!3d45.58976937900013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a0aa74dc20d1%3A0x5bda7693380e5c3d!2sPortland+International+Airport!5e0!3m2!1sen!2sus!4v1459224717096" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<br>
+		<!-- Alby is from Portland; Roni is from Budapest. -->
+		<a href="http://remote-prep.herokuapp.com/#01.html">Student Assignment</a>
+		<ul>
+			<li>Portland</li>
+			<li>Budapest</li>
+			<li>San Francisco</li>
+		</ul>
+		<hr>
+		<ol>
+			<li>Sunday</li>
+			<li>Monday</li>
+			<li>Tuesday</li>
+			<li>Wednesday</li>
+		</ol>
+		<hr>
+		<a href="mailto:anyemail@google.com?Subject=Website%20question">Email</a>
+		<hr>
+		<div>
+			<audio controls>
+				<source src="http://www.tonycuffe.com/mp3/cairnomount.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div id="aboutus">
+			<p>This is about us.</p>
+		</div>
+		<!-- Roni is up very early this morning!! -->
+	</body>
+
+
+	</html>
