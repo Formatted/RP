@@ -1,0 +1,23 @@
+#header {
+  color: red;
+}
+#nav {
+  color: blue;
+}
+#content {
+  color: green;
+}
+#footer {
+  color: yellow;
+}
+.important {
+  background-color: black;
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
+.nice-to-know {
+  background-color: grey;
+  color: green;
+  font-size: 1.5em;
+}
