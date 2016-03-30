@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<title>Sign up form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Sign up here</h1>
+<p>You can sign up here</p>
+<form action="https://formspree.io/your@email.com" method="POST">
+  <label for="firstName">First name</label>
+  <input type="text" name="firstName" id="firstName" placeholder="First name goes here" size="25" class="form"></input>
+  <label for="lastName">Last name</label>
+  <input type="text" name="lastName" placeholder="Last name goes here" size="25" class="form"></input>
+  <label for="userName">Username</label>
+  <input type="text" name="userName" placeholder="Username" class="form"></input>
+  <label for="password">Password</label>
+  <input type="password" name="password" placeholder="password" class="form">
+  <label for="userEmail">Email</label>
+  <input type="email" name="userEmail" placeholder="email" class="form"></input>
+  <label for="aboutMe">About me</label>
+  <textarea rows="4" cols="20" name="aboutMe"></textarea>
+	
+</form>
+<!-- <input style="display: inline;"... -->
+<form action="demo_form.asp">
+ <label for="male">Male</label>
+ <input type="radio" name="gender" id="male" value="male">
+ <label for="female">Female</label>
+ <input type="radio" name="gender" id="female" value="female">
+ <label for="other">Other</label>
+ <input type="radio" name="gender" id="other" value="other">
+ <label for="hairColor">Hair Color</label>
+<select name="hairColor">
+	<option value="" selected=""></option>
+	<option value="Brown">Brown</option>
+	<option value="Blond">Blond</option>
+	<option value="Red">Red</option>
+
+</select>
+<label for="hairColor">Hair Color</label>
+	<input type="color">
+	<br> 
+<input type="submit" value="Submit">
+
+</form>
+</body>
