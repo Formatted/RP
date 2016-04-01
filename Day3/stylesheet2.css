@@ -1,0 +1,45 @@
+#container {
+width: 800px;
+margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+  background-color: red;
+  padding: 15px;
+}
+
+#header h1 {
+  color: white;
+  float: left;
+}
+
+#navlinks {
+  float:right;
+  padding: 20px;
+}
+
+#navlinks ul li {
+  display: inline;
+}
+
+#header:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#content {
+	float: left;
+	width: 80%;
+}
+
+#sidebar {
+	float: right;
+	width: 20%;
+}
+#tabs:after {
+  content:"";
+  display:block;
+  clear:both;
+}
