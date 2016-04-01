@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  background-color: red;
+  padding: 15px;
+  }
+.footer {
+  width: 100%;
+  background-color: red;
+  padding: 15px;
+  color: white;
+}
+.container {
+	background-color: blue;
+	color: white;
+}
+#first {
+	background-color: green;
+}
+#second {
+	background-color: yellow;
+  color: black;
+}
+#third {
+	background-color: grey;
+}
+#forth {
+	background-color: violet;
+}
+#fifth {
+	background-color: black;
+}
+#sixth {
+	background-color: white;
+	color: black;
+}
