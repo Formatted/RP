@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+<input id="themecolor" type="radio" name="theme" value='red'/> Red
+<input id="themecolor" type="radio" name="theme" value='blue'/> Blue
+</form>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script>
+// $("input[type='radio'][name='rate']:checked").val();
+
+
+	$('input').on('change', function() {
+   var color = $('input[name=theme]:checked').val();
+	 $('body').css('background-color', color);
+	});
+
+	// var color = prompt("What color do you want this to be?");
+	// if (color === "red") {
+	// 	$('body').css('background-color', 'red');
+	// } else {b
+
+	//}
+</script>
+</body>
+</html>
