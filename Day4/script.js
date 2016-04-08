@@ -9,11 +9,22 @@ var string = "";
 n = prompt("Give me a number");
 
 while (cnt < n) {
-    if (cnt === n) {
-        string = string + "<p>" + number + "</p>" + "<hr>";
-    } else {
-        string = string + "<p>" + number + "," + "</p>";
-    }
+  if (number % 2 == 0) {
+    	if (cnt === n - 1) {
+        string = string + "<p class=\"even\">" + number + "</p>" + "<hr>";
+	    } else {
+        string = string + "<p class=\"even\">" + number + "," + "</p>";
+	    }
+  } else {
+  	  if (cnt === n - 1) {
+        string = string + "<p class=\"odd\">" + number + "</p>" + "<hr>";
+	    } else {
+        string = string + "<p class=\"odd\">" + number + "," + "</p>";
+	    }
+
+  }
+
+
     cnt += 1;
     number += 1;
 }
