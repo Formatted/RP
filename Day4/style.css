@@ -1,0 +1,14 @@
+div {
+    margin: 0 auto;
+    width: 96px;
+    border: solid 5px red;
+}
+p {
+    text-align: center;
+}
+.odd {
+    color: red;
+}
+.even {
+    color: blue;
+}
